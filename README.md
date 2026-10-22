@@ -55,7 +55,7 @@ Replace the value with your correct UPI ID if it changes. Ensure the displayed U
 Place your logo image in the repository root and update this HTML line if needed:
 
 ```html
-<img src="logo.jpeg" alt="RYKA Logo" class="brand-logo">
+<img src="ryka-logo.jpeg" alt="RYKA Logo" class="brand-logo">
 ```
 
 The logo is constrained to a small header area using CSS.
