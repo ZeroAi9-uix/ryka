@@ -1,21 +1,126 @@
+```html
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#090b12"><meta name="description" content="Read the RYKA Privacy Policy."><title>Privacy Policy — RYKA</title><link rel="icon" href="/assets/ryka-mark.svg" type="image/svg+xml"><link rel="stylesheet" href="/styles.css"></head>
-<body><header class="site-header"><a class="brand" href="/"><img src="/assets/ryka-mark.svg" alt="" width="42" height="42"><span class="brand-copy">RYKA<small>YOUR SOUND. YOUR UNIVERSE.</small></span></a><a class="back-link" href="/">← Legal center</a></header>
-<main class="document shell"><div class="doc-kicker"><span class="eyebrow">RYKA · LEGAL DOCUMENT</span><span class="doc-badge">PRIVACY</span></div><h1>Privacy Policy</h1><p class="doc-subtitle">A straightforward explanation of how information may be handled when you use RYKA.</p><div class="doc-meta"><span>Effective date</span><strong>October 24, 2026</strong><span class="meta-divider"></span><span>Document</span><strong>Privacy Policy</strong></div>
-<div class="review-alert"><span class="alert-icon">!</span><p><strong>Publisher checklist</strong><br>Before publishing, replace the support-email placeholder and confirm this policy matches the actual app, its SDKs, database rules, and third-party integrations.</p></div>
-<div class="doc-layout"><aside class="toc"><span class="toc-title">ON THIS PAGE</span><a href="#overview">Overview</a><a href="#information">Information</a><a href="#use">How it is used</a><a href="#providers">Providers</a><a href="#rights">Your choices</a><a href="#retention">Retention & deletion</a><a href="#contact">Contact</a></aside>
-<article class="prose">
-<section id="overview"><h2>1. Overview</h2><p>This Privacy Policy describes how RYKA (“RYKA”, “we”, “our”, or “the app”) may handle information when you use the app. The information involved depends on the features available in your version of RYKA and how you choose to use them.</p></section>
-<section id="information"><h2>2. Information that may be processed</h2><p>Depending on enabled features, information may include:</p><ul><li>Account details you provide, such as name, username, email address, age, and phone number.</li><li>Account identifiers, profile information, preferences, playlists, and other data needed for features you use.</li><li>Technical, diagnostic, or security information generated when the app operates, if the app's implementation or SDKs collect it.</li></ul><p>This list is a template, not a claim that every item is collected. The publisher must verify it against the released app and remove or add items as appropriate.</p></section>
-<section id="use"><h2>3. How information may be used</h2><p>Information may be used to create and secure accounts, provide music and app features, synchronize supported data, remember preferences, respond to support requests, prevent misuse, troubleshoot errors, and maintain reliability.</p></section>
-<section id="providers"><h2>4. Storage and service providers</h2><p>RYKA uses Firebase Authentication for supported account functions. Depending on the features actually enabled, Firebase or other providers may process or store information needed to operate the app. Review the relevant provider policies and ensure this section accurately describes the services in the released build.</p><p>RYKA may also link to or integrate with third-party music services, APIs, websites, or content. Those providers operate under their own terms and privacy policies. RYKA does not control independent providers' privacy practices.</p></section>
-<section><h2>5. Sharing and disclosure</h2><p>Information may be processed by service providers needed to operate enabled features or disclosed when required by applicable law. If the app uses analytics, advertising, crash reporting, or other SDKs that collect or share data, describe those services here before publishing.</p><p>Do not claim that data is never shared or sold unless that statement has been verified against the app's complete data practices.</p></section>
-<section><h2>6. Security</h2><p>Reasonable technical and organizational safeguards should be used to protect information. No method of electronic storage or transmission can be guaranteed to be completely secure.</p></section>
-<section id="retention"><h2>7. Retention and deletion</h2><p>Information may be retained while needed to provide a feature, maintain security, resolve disputes, or meet applicable legal obligations. To request account or data deletion, contact the developer using the contact details below. Add the exact deletion process, retention periods, and any exceptions that apply to the app before publication.</p></section>
-<section><h2>8. Children's privacy</h2><p>RYKA should not collect children's personal information in a way that violates applicable law. Age requirements, parental consent, and safeguards must follow the laws and app-store rules that apply to the app and its audience.</p></section>
-<section id="rights"><h2>9. Your choices and rights</h2><p>Depending on your location and applicable law, you may have rights to request access to, correction of, or deletion of personal information. Contact the developer to make a request. We may need to verify your identity before responding.</p></section>
-<section><h2>10. Changes to this policy</h2><p>This policy may be updated when app features, services, or data practices change. The current version and effective date will be published on this page.</p></section>
-<section id="contact"><h2>11. Contact</h2><p>For privacy questions or data requests, contact the RYKA developer at:</p><div class="contact-placeholder">[REPLACE WITH YOUR OFFICIAL SUPPORT EMAIL]</div></section>
-<div class="doc-end"><a class="button button-secondary" href="/">← Back to legal center</a><a class="next-doc" href="/terms">Next: Terms &amp; Conditions ↗</a></div>
-</article></div></main>
-<footer class="site-footer"><a class="footer-brand" href="/">RYKA <span>·</span> LEGAL</a><span>YOUR SOUND. YOUR UNIVERSE.</span><span>© 2026 RYKA</span></footer></body></html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f7f8fa">
+<meta name="description" content="RYKA Privacy Policy">
+<title>Privacy Policy — RYKA</title>
+<style>
+:root{--ink:#182230;--muted:#657184;--line:#e1e6ed;--paper:#fff;--canvas:#f5f7fa;--accent:#244d3a;--soft:#edf4ef}
+*{box-sizing:border-box}
+body{margin:0;background:var(--canvas);color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.7}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.topbar,footer{background:var(--paper);border-bottom:1px solid var(--line)}
+.nav,.footer-inner{width:min(calc(100% - 40px),1000px);margin:auto;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.nav{min-height:76px}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.12em}
+.brand-logo{width:38px;height:38px;min-width:38px;object-fit:contain;border-radius:9px}
+.nav-links{display:flex;gap:20px;font-size:13px;color:var(--muted)}
+main{width:min(calc(100% - 40px),1000px);margin:55px auto 65px}
+.eyebrow{color:var(--accent);font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+h1{font-size:clamp(34px,5vw,48px);letter-spacing:-.04em;line-height:1.15;margin:12px 0}
+.lead{max-width:700px;color:var(--muted);line-height:1.8}
+.meta{font-size:12px;color:var(--muted);margin-top:15px}
+.layout{display:grid;grid-template-columns:230px minmax(0,1fr);gap:22px;margin-top:30px;align-items:start}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:25px;box-shadow:0 8px 28px #18223009}
+.toc{position:sticky;top:20px}
+.toc strong{display:block;margin-bottom:10px}
+.toc a{display:block;color:var(--muted);font-size:13px;padding:5px 0}
+article h2{font-size:19px;letter-spacing:-.02em;margin:30px 0 7px;scroll-margin-top:20px}
+article h2:first-child{margin-top:0}
+article p,article li{font-size:14px;color:#536073}
+article ul{padding-left:22px}
+.notice{background:var(--soft);border:1px solid #d9e8dd;border-radius:10px;padding:14px;color:var(--accent);font-size:13px}
+footer{border-top:1px solid var(--line);border-bottom:0}
+.footer-inner{padding:22px 0;color:var(--muted);font-size:12px}
+@media(max-width:720px){main{margin-top:36px}.layout{grid-template-columns:1fr}.toc{position:static}.toc a{display:inline-block;margin-right:12px}.nav-links{gap:12px}.footer-inner{flex-wrap:wrap}}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="nav">
+    <a class="brand" href="./index.html">
+      <img src="logo.jpeg" alt="RYKA Logo" class="brand-logo">
+      <span>RYKA</span>
+    </a>
+    <nav class="nav-links">
+      <a href="./index.html">Home</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="eyebrow">RYKA / Legal</div>
+  <h1>Privacy Policy</h1>
+  <p class="lead">Your privacy matters. This policy explains how RYKA may handle information when you use the app and its related features.</p>
+  <p class="meta">Effective date: 24 October 2026 · Review before publishing</p>
+
+  <div class="layout">
+    <aside class="panel toc">
+      <strong>On this page</strong>
+      <a href="#overview">Overview</a>
+      <a href="#data">Information we handle</a>
+      <a href="#use">How information is used</a>
+      <a href="#third-party">Third-party services</a>
+      <a href="#security">Security and retention</a>
+      <a href="#choices">Your choices</a>
+      <a href="#children">Children's privacy</a>
+      <a href="#changes">Policy changes</a>
+      <a href="#contact">Contact</a>
+    </aside>
+
+    <article class="panel">
+      <p class="notice"><strong>Important:</strong> This is a starter policy. Verify that every statement matches the actual RYKA app, its SDKs, and its data practices before publishing.</p>
+
+      <h2 id="overview">1. Overview</h2>
+      <p>RYKA is an independent music application. In this policy, “RYKA”, “we”, and “our” refer to the people operating the app and its related services.</p>
+
+      <h2 id="data">2. Information We May Handle</h2>
+      <p>Depending on the features you use, information may include:</p>
+      <ul>
+        <li><strong>Account information:</strong> name, username, email address, and profile details you provide.</li>
+        <li><strong>App information:</strong> preferences, playlists, and settings associated with features you use.</li>
+        <li><strong>Technical information:</strong> information needed to maintain reliability, security, and troubleshoot errors, if collected.</li>
+      </ul>
+      <p>Only retain this list if it accurately describes the production app. Add any other information collected by your analytics, crash-reporting, or advertising SDKs.</p>
+
+      <h2 id="use">3. How Information Is Used</h2>
+      <p>Information may be used to provide app features, manage accounts, save preferences, support users, maintain security, and fix technical issues. We should use information only for purposes that are disclosed and permitted by applicable law.</p>
+
+      <h2 id="third-party">4. Third-Party Services and Content</h2>
+      <p>Some features may depend on external services for authentication, music discovery, or content. Those providers may handle information under their own policies and terms. Before publishing, identify the actual providers used by your released app and link to their current privacy policies.</p>
+
+      <h2>5. Sharing of Information</h2>
+      <p>Explain here whether and how information is shared with service providers, analytics platforms, or other third parties. Do not claim that information is never shared unless you have verified the app's complete data flow. Information may also need to be disclosed where required by law.</p>
+
+      <h2 id="security">6. Security and Retention</h2>
+      <p>Reasonable measures should be used to protect information. No online system can guarantee absolute security. Information should be retained only for as long as needed for the disclosed purposes or applicable legal obligations.</p>
+
+      <h2 id="choices">7. Your Choices and Data Requests</h2>
+      <p>Use any account controls provided in RYKA to update your details. For requests to access, correct, or delete personal information, contact the support address provided by the app operator. Add your real account-deletion procedure and any applicable limitations before publication.</p>
+
+      <h2 id="children">8. Children's Privacy</h2>
+      <p>State the minimum age for using RYKA and how information from children is handled under the laws that apply to your service. This section must reflect your actual age policy and practices.</p>
+
+      <h2 id="changes">9. Changes to This Policy</h2>
+      <p>This policy may be updated as RYKA changes. The latest version should be published on this page with a revised effective date.</p>
+
+      <h2 id="contact">10. Contact</h2>
+      <p>For privacy questions, contact: <strong>[ADD YOUR OFFICIAL SUPPORT EMAIL]</strong>.</p>
+      <p>Replace the placeholder before publishing.</p>
+    </article>
+  </div>
+</main>
+
+<footer><div class="footer-inner">
+  <span>© <span id="year"></span> RYKA · Independent project</span>
+  <span><a href="terms.html">Terms &amp; Conditions</a></span>
+</div></footer>
+<script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+</body>
+</html>
+```
