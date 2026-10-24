@@ -37,6 +37,40 @@ body {
   justify-content: space-between;
   gap: 20px;
 }
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.nav-links a {
+  color: #24415f;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #182230;
+}
+
+@media (max-width: 480px) {
+  .nav {
+    width: calc(100% - 28px);
+    gap: 12px;
+  }
+
+  .nav-links {
+    gap: 14px;
+  }
+
+  .nav-links a {
+    font-size: 12px;
+  }
+}
+
 .brand {
   display: flex;
   align-items: center;
@@ -196,10 +230,12 @@ footer { border-top: 1px solid var(--line); background: var(--paper); }
         <span>RYKA</span>
       </a>
 
+      
       <nav class="nav-links" aria-label="Main navigation">
-        <a href="./privacy.html">Privacy</a>
-        <a href="./t&c.html">Terms &amp; Conditions</a>
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="./t%26c.html">Terms &amp; Conditions</a>
       </nav>
+
     </div>
   </header>
 
