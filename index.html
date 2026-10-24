@@ -185,16 +185,21 @@ footer { border-top: 1px solid var(--line); background: var(--paper); }
 </style>
 </head>
 <body>
+
 <header class="topbar">
   <div class="nav">
     <div class="brand">
-      <!-- Replace logo.jpeg with your own image path, e.g. ./assets/my-logo.png -->
-      <img src="logo.jpeg" alt="RYKA Logo" class="brand-logo">
+      <img src="./logo.jpeg" alt="RYKA Logo" class="brand-logo">
       <span>RYKA</span>
     </div>
-    <div class="nav-note">Official developer support</div>
+
+    <nav class="header-links" aria-label="Legal navigation">
+      <a href="./privacy.html">Privacy Policy</a>
+      <a href="./terms.html">Terms &amp; Conditions</a>
+    </nav>
   </div>
 </header>
+
 
 <main>
   <section class="intro">
