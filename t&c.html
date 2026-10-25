@@ -6,7 +6,6 @@
   <meta name="theme-color" content="#f5f7fa">
   <meta name="description" content="Read the RYKA Terms and Conditions.">
   <title>Terms &amp; Conditions — RYKA</title>
-
   <style>
     :root {
       --ink: #182230;
@@ -17,197 +16,56 @@
       --accent: #244d3a;
       --soft: #edf4ef;
     }
-
     * { box-sizing: border-box; }
-
     html { scroll-behavior: smooth; }
-
     body {
-      margin: 0;
-      background: var(--canvas);
-      color: var(--ink);
-      font-family: Inter, -apple-system, BlinkMacSystemFont,
-        "Segoe UI", Arial, sans-serif;
-      -webkit-font-smoothing: antialiased;
-      line-height: 1.7;
+      margin: 0; background: var(--canvas); color: var(--ink);
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      -webkit-font-smoothing: antialiased; line-height: 1.7;
     }
-
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-
+    a { color: var(--accent); text-decoration: none; }
     a:hover { text-decoration: underline; }
-
-    .topbar, footer {
-      background: var(--paper);
-      border-bottom: 1px solid var(--line);
-    }
-
+    .topbar, footer { background: var(--paper); border-bottom: 1px solid var(--line); }
     .nav, .footer-inner {
-      width: min(calc(100% - 40px), 1000px);
-      margin: auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 20px;
+      width: min(calc(100% - 40px), 1000px); margin: auto; display: flex;
+      align-items: center; justify-content: space-between; gap: 20px;
     }
-
     .nav { min-height: 76px; }
-
     .brand {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      color: var(--ink);
-      font-weight: 800;
-      letter-spacing: .12em;
+      display: flex; align-items: center; gap: 12px; color: var(--ink);
+      font-weight: 800; letter-spacing: .12em;
     }
-
-    .brand-logo {
-      width: 38px;
-      height: 38px;
-      object-fit: contain;
-      border-radius: 9px;
-      flex-shrink: 0;
-    }
-
-    .nav-links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      font-size: 13px;
-      color: var(--muted);
-    }
-
-    main {
-      width: min(calc(100% - 40px), 1000px);
-      margin: 55px auto 65px;
-    }
-
-    .eyebrow {
-      color: var(--accent);
-      font-size: 12px;
-      font-weight: 800;
-      letter-spacing: .14em;
-      text-transform: uppercase;
-    }
-
-    h1 {
-      font-size: clamp(34px, 5vw, 48px);
-      letter-spacing: -.04em;
-      line-height: 1.15;
-      margin: 12px 0;
-    }
-
-    .lead {
-      max-width: 700px;
-      color: var(--muted);
-      line-height: 1.8;
-    }
-
-    .meta {
-      font-size: 12px;
-      color: var(--muted);
-      margin-top: 15px;
-    }
-
-    .layout {
-      display: grid;
-      grid-template-columns: 230px minmax(0, 1fr);
-      gap: 22px;
-      margin-top: 30px;
-      align-items: start;
-    }
-
-    .panel {
-      min-width: 0;
-      background: var(--paper);
-      border: 1px solid var(--line);
-      border-radius: 16px;
-      padding: 25px;
-      box-shadow: 0 8px 28px #18223009;
-    }
-
-    .toc {
-      position: sticky;
-      top: 20px;
-    }
-
-    .toc strong {
-      display: block;
-      margin-bottom: 10px;
-    }
-
-    .toc a {
-      display: block;
-      color: var(--muted);
-      font-size: 13px;
-      padding: 5px 0;
-    }
-
-    article h2 {
-      font-size: 19px;
-      letter-spacing: -.02em;
-      margin: 30px 0 7px;
-      scroll-margin-top: 20px;
-    }
-
+    .brand-logo { width: 38px; height: 38px; object-fit: contain; border-radius: 9px; flex-shrink: 0; }
+    .nav-links { display: flex; flex-wrap: wrap; gap: 20px; font-size: 13px; color: var(--muted); }
+    main { width: min(calc(100% - 40px), 1000px); margin: 55px auto 65px; }
+    .eyebrow { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+    h1 { font-size: clamp(34px, 5vw, 48px); letter-spacing: -.04em; line-height: 1.15; margin: 12px 0; }
+    .lead { max-width: 700px; color: var(--muted); line-height: 1.8; }
+    .meta { font-size: 12px; color: var(--muted); margin-top: 15px; }
+    .layout { display: grid; grid-template-columns: 230px minmax(0, 1fr); gap: 22px; margin-top: 30px; align-items: start; }
+    .panel { min-width: 0; background: var(--paper); border: 1px solid var(--line); border-radius: 16px; padding: 25px; box-shadow: 0 8px 28px #18223009; }
+    .toc { position: sticky; top: 20px; }
+    .toc strong { display: block; margin-bottom: 10px; }
+    .toc a { display: block; color: var(--muted); font-size: 13px; padding: 5px 0; }
+    article h2 { font-size: 19px; letter-spacing: -.02em; margin: 30px 0 7px; scroll-margin-top: 20px; }
     article h2:first-of-type { margin-top: 0; }
-
-    article p, article li {
-      font-size: 14px;
-      color: #536073;
-    }
-
+    article p, article li { font-size: 14px; color: #536073; }
     article ul { padding-left: 22px; }
-
-    .notice {
-      background: var(--soft);
-      border: 1px solid #d9e8dd;
-      border-radius: 10px;
-      padding: 14px;
-      color: var(--accent);
-      font-size: 13px;
-    }
-
-    footer {
-      border-top: 1px solid var(--line);
-      border-bottom: 0;
-    }
-
-    .footer-inner {
-      padding: 22px 0;
-      color: var(--muted);
-      font-size: 12px;
-    }
-
+    .notice { background: var(--soft); border: 1px solid #d9e8dd; border-radius: 10px; padding: 14px; color: var(--accent); font-size: 13px; }
+    footer { border-top: 1px solid var(--line); border-bottom: 0; }
+    .footer-inner { padding: 22px 0; color: var(--muted); font-size: 12px; }
     @media (max-width: 720px) {
       main { margin-top: 36px; }
-
       .layout { grid-template-columns: 1fr; }
-
       .toc { position: static; }
-
-      .toc a {
-        display: inline-block;
-        margin-right: 12px;
-      }
-
+      .toc a { display: inline-block; margin-right: 12px; }
       .panel { padding: 20px; }
-
-      .nav {
-        flex-wrap: wrap;
-        padding: 14px 0;
-      }
-
+      .nav { flex-wrap: wrap; padding: 14px 0; }
       .nav-links { gap: 12px; }
-
       .footer-inner { flex-wrap: wrap; }
     }
   </style>
 </head>
-
 <body>
   <header class="topbar">
     <div class="nav">
@@ -215,149 +73,150 @@
         <img src="./logo.jpeg" alt="RYKA logo" class="brand-logo">
         <span>RYKA</span>
       </a>
-
       <nav class="nav-links" aria-label="Main navigation">
         <a href="./index.html">Home</a>
         <a href="./privacy.html">Privacy Policy</a>
       </nav>
     </div>
   </header>
-
   <main>
     <div class="eyebrow">RYKA / Legal</div>
     <h1>Terms &amp; Conditions</h1>
-
-    <p class="lead">
-      These terms describe the conditions for using RYKA and its
-      supported features. Please read them before using the app.
-    </p>
-
-    <p class="meta">Effective date: 24 October 2026</p>
-
+    <p class="lead">These Terms &amp; Conditions explain the rules for using RYKA, including accounts, music features, subscriptions, and third-party services. Please read them before using the Services.</p>
+    <p class="meta">Last Updated: 25 October 2026</p>
     <div class="layout">
       <aside class="panel toc">
         <strong>On this page</strong>
         <a href="#acceptance">Acceptance</a>
-        <a href="#service">The service</a>
+        <a href="#eligibility">Eligibility</a>
         <a href="#accounts">Accounts</a>
-        <a href="#conduct">Acceptable use</a>
-        <a href="#content">Music and content</a>
-        <a href="#third-party">Third-party services</a>
+        <a href="#services">RYKA Services</a>
+        <a href="#content">Music &amp; Content</a>
+        <a href="#conduct">Acceptable Use</a>
+        <a href="#subscriptions">Subscriptions</a>
+        <a href="#devices">Device Limits</a>
+        <a href="#payments">Payments</a>
+        <a href="#refunds">Refunds &amp; Cancellations</a>
+        <a href="#intellectual-property">Intellectual Property</a>
+        <a href="#ai">AI Features</a>
         <a href="#availability">Availability</a>
-        <a href="#liability">Disclaimers</a>
-        <a href="#termination">Termination</a>
+        <a href="#suspension">Suspension</a>
+        <a href="#liability">Liability</a>
         <a href="#changes">Changes</a>
+        <a href="#law">Governing Law</a>
         <a href="#contact">Contact</a>
       </aside>
-
       <article class="panel">
         <p class="notice">
-          <strong>Important:</strong> This is a starter template,
-          not legal advice. Review it against the actual RYKA app
-          and applicable laws before publishing.
+          <strong>Welcome to RYKA.</strong> These Terms help explain how to use RYKA responsibly, what to expect from its features, and the rules that help protect users and the service. If you have questions about these Terms, please contact RYKA Support using the details in the Contact section.
         </p>
 
         <h2 id="acceptance">1. Acceptance of These Terms</h2>
-        <p>
-          By installing or using RYKA, you agree to these Terms
-          &amp; Conditions and applicable law. If you do not agree,
-          discontinue use of the app.
-        </p>
+        <p>Welcome to RYKA (“RYKA”, “we”, “our”, or “us”). These Terms &amp; Conditions (“Terms”) govern your access to and use of the RYKA application, website and related services (“Services”). By creating an account or using RYKA, you agree to these Terms. If you do not agree, please discontinue use of the Services.</p>
 
-        <h2 id="service">2. About RYKA</h2>
-        <p>
-          RYKA is an independent music application. Features may
-          change over time and may depend on external platforms
-          or services. Available features depend on the app version
-          and the services accessible to it.
-        </p>
+        <h2 id="eligibility">2. Eligibility</h2>
+        <p>You must meet the minimum age and legal requirements applicable in your location to use RYKA. If you are under the applicable age of digital consent, parental or guardian involvement may be required. You are responsible for ensuring that your use of RYKA is permitted under the rules that apply to you.</p>
 
-        <h2 id="accounts">3. Accounts and Security</h2>
-        <p>
-          If you create an account, provide accurate information
-          and take reasonable steps to protect your login credentials.
-          Do not access another person's account without permission.
-          Contact the operator if you suspect unauthorised access.
-        </p>
+        <h2 id="accounts">3. Your RYKA Account</h2>
+        <p>You are responsible for providing accurate account information, keeping your login credentials secure, maintaining the security of your account, and not sharing your account in violation of your selected subscription limits.</p>
+        <p>You must notify RYKA if you believe your account has been accessed without authorization. Do not access another person's account without permission.</p>
 
-        <h2 id="conduct">4. Acceptable Use</h2>
-        <p>
-          You must not use RYKA to violate applicable law, infringe
-          another person's rights, interfere with the app's operation,
-          attempt unauthorised access, or distribute harmful software.
-          Do not misuse third-party services connected through the app.
-        </p>
+        <h2 id="services">4. RYKA Services</h2>
+        <p>RYKA may provide features including:</p>
+        <ul>
+          <li>Music streaming</li>
+          <li>Music discovery and recommendations</li>
+          <li>AI-powered recommendations</li>
+          <li>AI translation</li>
+          <li>Listen Together</li>
+          <li>Playlist importing</li>
+          <li>Custom UI and themes</li>
+          <li>Custom logos or profile customization</li>
+          <li>Free and Premium subscription features</li>
+        </ul>
+        <p>Feature availability may depend on your app version, location, external platforms, technical conditions, or services available to RYKA. Features may be changed, improved, suspended or discontinued when reasonably necessary.</p>
 
-        <h2 id="content">5. Music and Third-Party Content</h2>
-        <p>
-          Music, artwork, videos, metadata, and other content may
-          belong to third-party platforms or rights holders. Using
-          RYKA does not transfer ownership of that content to you.
-          You are responsible for following applicable copyright
-          rules and content-provider terms.
-        </p>
+        <h2 id="content">5. Music &amp; Third-Party Content</h2>
+        <p>RYKA does not claim ownership of music or other copyrighted content belonging to artists, labels, publishers or third parties. Availability of particular music may depend on licensing arrangements, geographical restrictions, third-party APIs or platform availability.</p>
+        <p>Your use of third-party music or content may also be subject to the applicable provider's terms. You are responsible for respecting copyright and other applicable rights.</p>
 
-        <h2 id="third-party">6. Third-Party Services</h2>
-        <p>
-          Some features may depend on external services. Their
-          availability, policies, and terms are controlled by their
-          respective providers. RYKA cannot guarantee that every
-          external service will remain available.
-        </p>
+        <h2 id="conduct">6. Acceptable Use</h2>
+        <p>You agree not to:</p>
+        <ul>
+          <li>Use RYKA for unlawful purposes</li>
+          <li>Attempt to bypass security or access restrictions</li>
+          <li>Reverse engineer, attack, or disrupt the Services where prohibited by law</li>
+          <li>Copy or redistribute copyrighted music without authorization</li>
+          <li>Circumvent subscription limitations</li>
+          <li>Abuse Listen Together or other collaborative features</li>
+          <li>Upload unlawful or infringing content</li>
+          <li>Impersonate another person or organization</li>
+          <li>Interfere with the operation or security of RYKA</li>
+          <li>Use automated systems to abuse the Services</li>
+        </ul>
 
-        <h2 id="availability">7. Availability and Changes</h2>
-        <p>
-          Features may be updated, modified, suspended, or discontinued
-          for operational, security, legal, or product reasons.
-          Nothing in these terms removes rights that cannot lawfully
-          be excluded.
-        </p>
+        <h2 id="subscriptions">7. Premium Subscriptions</h2>
+        <p>RYKA may offer subscription plans with different durations, device limits and features. The available plan, price, duration, and device allowance will be shown before you confirm a purchase.</p>
+        <p>Plan names or prices may include the following, if currently offered:</p>
+        <ul>
+          <li><strong>Silver:</strong> 1 month — ₹29 for 1 device; ₹59 for 3 devices</li>
+          <li><strong>Gold:</strong> 3 months — ₹89 for 1 device; ₹179 for 3 devices</li>
+          <li><strong>Platinum:</strong> 6 months — ₹159 for 1 device; ₹319 for 3 devices</li>
+          <li><strong>Elite:</strong> 1 year — ₹299 for 1 device; ₹599 for 3 devices</li>
+        </ul>
+        <p>Prices, plans, benefits and availability may change for future purchases, subject to applicable law and appropriate notice. The terms shown at checkout will apply to the purchase you make.</p>
 
-        <h2 id="liability">8. Disclaimers and Liability</h2>
-        <p>
-          To the extent permitted by applicable law, RYKA is provided
-          on an "as available" basis. Nothing in these terms excludes
-          or limits liability or consumer rights that cannot legally
-          be excluded or limited.
-        </p>
+        <h2 id="devices">8. Device Limits</h2>
+        <p>A subscription's device allowance applies to the number of devices specified in the plan you purchased. Attempting to use a plan beyond its permitted device limit may result in a temporary restriction or other account action, subject to applicable law and fair handling.</p>
 
-        <h2 id="termination">9. Suspension or Termination</h2>
-        <p>
-          Access may be restricted where reasonably necessary to
-          protect the service, address serious misuse, or comply
-          with law. Publish the actual account deletion and appeal
-          procedures if those features are supported.
-        </p>
+        <h2 id="payments">9. Payments</h2>
+        <p>Payments may be processed through authorized third-party payment providers. You agree to provide accurate payment information and authorize the applicable provider to process your purchase. Payment processing may also be subject to the provider's terms and privacy policy.</p>
 
-        <h2 id="changes">10. Changes to These Terms</h2>
-        <p>
-          These terms may be updated as RYKA evolves. The updated
-          version will be published on this page with a revised
-          effective date.
-        </p>
+        <h2 id="refunds">10. Refunds &amp; Cancellations</h2>
+        <p>Refunds and cancellations are governed by the RYKA Refund &amp; Cancellation Policy, where one is published and applicable to your purchase. Please review that policy before purchasing. Nothing in these Terms limits mandatory consumer rights available under applicable law.</p>
 
-        <h2 id="contact">11. Contact</h2>
-        <p>
-          For questions about these terms, contact the RYKA operator
-          using the official support email published for the project.
-        </p>
-        <p>
-          <strong>Before publishing, add your actual support email.</strong>
-        </p>
+        <h2 id="intellectual-property">11. Intellectual Property</h2>
+        <p>RYKA's name, branding, logos, software, interface, original graphics and other original materials are owned by or licensed to RYKA. You may not copy, reproduce, modify or redistribute RYKA's proprietary materials without permission, except where permitted by applicable law.</p>
+        <p>Third-party content remains the property of its respective owners.</p>
+
+        <h2 id="ai">12. AI Features</h2>
+        <p>AI-generated recommendations, translations and other AI features may occasionally contain errors, omissions or unexpected results. AI outputs should not automatically be treated as factual, professional or guaranteed information. Use your own judgment when relying on AI-generated results.</p>
+
+        <h2 id="availability">13. Service Availability</h2>
+        <p>We aim to keep RYKA available and reliable, but uninterrupted service cannot be guaranteed. Maintenance, technical problems, third-party service outages or circumstances beyond our reasonable control may temporarily affect availability.</p>
+
+        <h2 id="suspension">14. Account Suspension or Restriction</h2>
+        <p>RYKA may restrict or suspend an account where reasonably necessary to prevent abuse, protect users, prevent fraud, enforce these Terms, comply with legal requirements, or protect the security of the Services. Where appropriate and legally permitted, we may provide notice or an opportunity to resolve the issue.</p>
+
+        <h2 id="liability">15. Disclaimers and Limitation of Liability</h2>
+        <p>To the extent permitted by applicable law, the Services are provided on an “as available” basis, without a guarantee that they will always be uninterrupted or error-free. RYKA will not be responsible for indirect or consequential losses arising from use of the Services to the extent such exclusions are permitted by law.</p>
+        <p>Nothing in these Terms excludes or limits liability, statutory protections, or consumer rights that cannot legally be excluded or limited.</p>
+
+        <h2 id="changes">16. Changes to These Terms</h2>
+        <p>We may update these Terms from time to time as RYKA evolves. Material changes may be communicated through the app, website or other appropriate methods. The updated version will be published on this page with a revised effective date.</p>
+
+        <h2 id="law">17. Governing Law</h2>
+        <p>These Terms are intended to be governed by the applicable laws of India, subject to mandatory consumer rights and applicable jurisdictional requirements. This section does not remove any rights that apply to you under mandatory local law.</p>
+
+        <h2 id="contact">18. Contact</h2>
+        <p>For questions about these Terms, contact RYKA Support using the official contact details below.</p>
+        <ul>
+          <li><strong>Support email:</strong> <a href="mailto:support@yourdomain.com">support@yourdomain.com</a></li>
+          <li><strong>Website:</strong> <em>[your official website]</em></li>
+        </ul>
+        <p>Please replace the example email and website with working official contact details before publishing.</p>
       </article>
     </div>
   </main>
-
   <footer>
     <div class="footer-inner">
       <span>© <span id="year"></span> RYKA · Independent project</span>
+      <span class="developer-watermark">Developed by <strong>Himanshu</strong></span>
       <span><a href="./privacy.html">Privacy Policy</a></span>
     </div>
   </footer>
-
   <script>
-    document.getElementById("year").textContent =
-      new Date().getFullYear();
+    document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
